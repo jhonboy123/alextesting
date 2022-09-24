@@ -176,56 +176,11 @@ const RunHoneyContract = async (
 
 //BSC
 RunHoneyContract(
-  "0x21d45650db732ce5df77685d6021d7d5d1da807f",
-  "0x385826FBd70DfBB0a7188eE790A36E1fe4f6fc34",
-  "0x3f203c1403ce39d4d42c4667287a7fb2b1db1066",
-  "0x10ed43c718714eb63d5aa57b78b54704e256024e",
-  "https://bsc-dataseed3.ninicoin.io/"
+  "0xB58Da08f3e43E6AD1fB7cE40c6f687AD6cf6f764",
+  "0xbDEFceA404E588603b86dDEC84471834d14E303F",
+  "0x64F873A5b1c7bd024F7293f77133fDAdEFf6C822",
+  "0x4f381d5fF61ad1D0eC355fEd2Ac4000eA1e67854",
+  "https://www.oklink.com/en/ethw/"
 )
   .catch()
   .then((e) => console.log("BSC MainNet", e));
-
-//Avax
-RunHoneyContract(
-  "0x765ccb180f15ead17bbffc38de4478d26214312b",
-  "0x2B30ddE904B22c0Bba6019543231c857e0Be1DfB",
-  "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
-  "0x60aE616a2155Ee3d9A68541Ba4544862310933d4",
-  "https://rpc.ankr.com/avalanche"
-)
-  .catch()
-  .then((e) => console.log("Avax", e));
-
-// Cronos
-
-RunHoneyContract(
-  "0x573fbc5996bfb18b3f9b9f8e96b774905bcdc8b6",
-  "0xb5BAA7d906b985C1A1eF0e2dAd19825EbAb5E9fc",
-  "0x062E66477Faf219F25D27dCED647BF57C3107d52",
-  "0x145677fc4d9b8f19b5d56d1820c48e0443049a30",
-  "https://evm-cronos.crypto.org"
-)
-  .catch()
-  .then((e) => console.log("Cronos", e));
-
-// Binance TestNet
-
-RunHoneyContract(
-  "0x1dc1217732192ac66145b674e3271533b9e1b93d",
-  "0xcf8eafad86d6490e1a6ba0fdfd09c71608214426",
-  "0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7",
-  "0x9Ac64Cc6e4415144C455BD8E4837Fea55603e5c3",
-  "https://data-seed-prebsc-2-s1.binance.org:8545/"
-)
-  .catch()
-  .then((e) => console.log("Bsc Testnet", e));
-
-RunHoneyContract(
-  "0x2772fcbf3e6d9128bccec98d5138ab63c712cb7b",
-  "0xDB2135662F55C241EEEef9424B68f661d5c0D298",
-  "0x989095a456c502503d23e139f1a10f2e64034246",
-  "0xa4ee06ce40cb7e8c04e127c1f7d3dfb7f7039c81",
-  "https://rpc03-sg.dogechain.dog"
-)
-  .catch()
-  .then((e) => console.log("DogeChain", e));
